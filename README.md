@@ -1,6 +1,6 @@
-#Tutorial: Implementação de Sensores no ESP32 e Integração com IoT
+# Tutorial: Implementação de Sensores no ESP32 e Integração com IoT
 
-#1. Introdução
+## 1. Introdução
 
 Neste projeto, será demonstrada a implementação prática de sensores no ESP32, utilizando:
 
@@ -10,7 +10,7 @@ Sensor LDR para medição de luminosidade.
 
 Os dados coletados serão enviados via protocolo MQTT para o aplicativo MyMQTT, permitindo a leitura e o monitoramento remoto em um ambiente IoT.
 
-#2. Objetivos
+## 2. Objetivos
 
 Implementar sensores DHT11 e LDR no microcontrolador ESP32;
 
@@ -20,7 +20,7 @@ Demonstrar a publicação e leitura dos dados via broker MQTT;
 
 Documentar o processo de configuração, programação e execução.
 
-#3. Materiais Utilizados
+## 3. Materiais Utilizados
 
 1x Placa ESP32 (modelo ESP32-WROOM-32D);
 
@@ -36,14 +36,14 @@ Aplicativo MyMQTT (Android ou iOS);
 
 Conexão Wi-Fi ativa.
 
-#4. Esquemático de Ligações
+## 4. Esquemático de Ligações
 
 O diagrama abaixo representa a conexão entre o ESP32, o sensor DHT11 e o LDR.
 
-(![Esquematica de conexões](https://github.com/user-attachments/assets/9613c23e-abf8-4356-a288-e32f98a8f91f)
-)
+![Esquematica de conexões](https://github.com/user-attachments/assets/9613c23e-abf8-4356-a288-e32f98a8f91f)
 
-#5. Configuração do Ambiente
+
+## 5. Configuração do Ambiente
 
 Instalação do Arduino IDE:
 
@@ -61,11 +61,11 @@ PubSubClient (para MQTT)
 
 WiFi (já vem com o ESP32)
 
-6. Código-Fonte do ESP32
+## 6. Código-Fonte do ESP32
 
 Anexado no repositorio, so baixar o arquivo .ino e executar, a IDE detectara automaticamente
 
-#7. Configuração do Servidor MQTT
+## 7. Configuração do Servidor MQTT
 
 Para a comunicação MQTT, utilizaremos um servidor local.
 
@@ -80,7 +80,7 @@ A seguir um video tutorial de como realizar a instalação do servidor local via
 (https://youtu.be/E3WN9Wq7wOs)
 
 
-#8. Configuração do Aplicativo MyMQTT
+## 8. Configuração do Aplicativo MyMQTT
 
 Baixe o aplicativo MyMQTT na Play Store;
 
@@ -104,7 +104,7 @@ Como mostrado na imagem acima na ava subscribe voce adicionara um dos topicos pr
 <img width="1037" height="243" alt="image" src="https://github.com/user-attachments/assets/a4435475-d76f-4452-85d0-105f14182778" />
 
 
-#9. Teste e Monitoramento
+## 9. Teste e Monitoramento
 
 Após o upload do código:
 
@@ -114,7 +114,7 @@ No MyMQTT, observe os valores atualizados de temperatura, umidade e luminosidade
 
 Ajuste o sensor LDR cobrindo ou iluminando o componente e observe a variação dos dados.
 
-#10. Resultados Esperados
+## 10. Resultados Esperados
 
 Ao final, o sistema deve:
 
