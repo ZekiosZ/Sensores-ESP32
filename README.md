@@ -123,5 +123,3 @@ Conectar-se automaticamente à rede Wi-Fi;
 Publicar periodicamente os dados de temperatura, umidade e luminosidade;
 
 Exibir os valores em tempo real no aplicativo MyMQTT.
-
-(Adicione aqui prints dos resultados ou gráficos se desejar)
