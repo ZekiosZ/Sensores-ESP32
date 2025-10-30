@@ -1,4 +1,4 @@
-# Tutorial: Implementação de Sensores no ESP32 e Integração com IoT
+# Tutorial: Implementação de Sensores no ESP32 e Integração com IoT e site com dashboards
 
 ## 1. Introdução
 
@@ -8,7 +8,9 @@ Sensor DHT11 para medição de temperatura e umidade;
 
 Sensor LDR para medição de luminosidade.
 
-Os dados coletados serão enviados via protocolo MQTT para o aplicativo MyMQTT, permitindo a leitura e o monitoramento remoto em um ambiente IoT.
+DashBoard para apresentação dos dados
+
+Os dados coletados tambem serão enviados via protocolo MQTT para o aplicativo MyMQTT, permitindo a leitura e o monitoramento remoto em um ambiente IoT.
 
 ## 2. Objetivos
 
@@ -16,7 +18,7 @@ Implementar sensores DHT11 e LDR no microcontrolador ESP32;
 
 Realizar a comunicação entre o ESP32 e o aplicativo MyMQTT;
 
-Demonstrar a publicação e leitura dos dados via broker MQTT;
+Demonstrar a publicação e leitura dos dados via broker MQTT E via dashboards no nosso site;
 
 Documentar o processo de configuração, programação e execução.
 
@@ -114,12 +116,16 @@ No MyMQTT, observe os valores atualizados de temperatura, umidade e luminosidade
 
 Ajuste o sensor LDR cobrindo ou iluminando o componente e observe a variação dos dados.
 
-## 10. Resultados Esperados
+## 10.Como Vai aparecer no nosso site.
+
+<img width="1901" height="902" alt="image" src="https://github.com/user-attachments/assets/2f3863cf-cd09-451d-a907-136e90eaa1d5" />
+
+## 11. Resultados Esperados
 
 Ao final, o sistema deve:
 
 Conectar-se automaticamente à rede Wi-Fi;
 
-Publicar periodicamente os dados de temperatura, umidade e luminosidade;
+Publicar periodicamente os dados de temperatura, umidade e luminosidade na ava estatisticas do site passa bola;
 
 Exibir os valores em tempo real no aplicativo MyMQTT.
