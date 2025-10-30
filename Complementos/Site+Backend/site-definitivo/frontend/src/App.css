@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;700&display=swap');
+
+@theme {
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+@utility font-bebas {
+  font-family: var(--font-bebas);
+}
+
+@utility font-poppins {
+  font-family: var(--font-poppins);
+}
