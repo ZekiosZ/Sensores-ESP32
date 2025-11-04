@@ -12,6 +12,10 @@ DashBoard para apresentação dos dados
 
 Os dados coletados tambem serão enviados via protocolo MQTT para o aplicativo MyMQTT, permitindo a leitura e o monitoramento remoto em um ambiente IoT.
 
+## Link do deploy
+
+[Clique aqui](https://site-definitivo-er4o.vercel.app/)
+
 ## 2. Objetivos
 
 Implementar sensores DHT11 e LDR no microcontrolador ESP32;
